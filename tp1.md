@@ -1,12 +1,19 @@
-### TP n°1 : Introduction au PHP et premiers pas
+## TP n°1 : Introduction au PHP et premiers pas
 
-#### **1. Objectif général**
+### **1. Objectif général**
 
 Découvrir PHP, comprendre son rôle côté serveur, et apprendre à écrire et exécuter des scripts simples.
 
+**Les ressources à votre disposition**
+
+- Aide officielle de PHP : https://www.php.net/manual/fr/
+  - Pensez à utiliser son moteur de recherche ;)
+- Site d'apprentissage multi language pour débutant : https://www.w3schools.com/php/default.asp
+- Évitez l'IA pour l'instant, cherchez à comprendre par vous même.
+
 ---
 
-#### **2. Activités pratiques guidées**
+### **2. Activités pratiques guidées**
 
 **Exercice 1 : Premier affichage**
 
