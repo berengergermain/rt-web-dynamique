@@ -76,10 +76,6 @@ Comprendre comment collecter des données via des formulaires HTML et les traite
 - Créer un formulaire permettant de convertir des kilomètres en miles.
 - Afficher le résultat après soumission.
 
-**Exercice 15 : Sélection multiple et affichage**
-- Demander à l'utilisateur de sélectionner plusieurs langues parlées.
-- Afficher les langues choisies sous forme de liste.
-
 #### **4) Exercices manipulant les données de formulaire dans du code HTML**
 
 **Exercice 16 : Génération dynamique de tableau HTML**
@@ -98,6 +94,20 @@ Comprendre comment collecter des données via des formulaires HTML et les traite
 - Demander `Nom`, `Email` et `Mot de passe`.
 - Ajouter un champ `Confirmer mot de passe` et vérifier qu'il correspond au premier champ.
 
-**Exercice 20 : Simulation d'une recherche**
-- Créer un champ de recherche permettant à l'utilisateur d'entrer un mot-clé.
-- Afficher un message dynamique en fonction du mot-clé entré.
+#### **5) Exercices manipulant les Sessions**
+
+**Exercice 20 : Démarrer et afficher une session**
+- Créer une page `session_test.php`.
+- Démarrer une session avec `session_start()`.
+- Stocker une variable de session `$_SESSION['utilisateur'] = "Alice";`.
+- Afficher cette variable sur la page.
+
+**Exercice 21 : Persistance des données de formulaire avec session**
+- Créer un formulaire demandant le nom, email et âge d'un utilisateur.
+- Lors de la soumission, stocker ces informations dans `$_SESSION`.
+- Afficher ces informations sur une autre page `profil.php`.
+- Ajouter un bouton "Déconnexion" qui détruit la session et redirige sur la première page.
+
+**Exercice 22 : Compteur de visites avec session**
+- Créer une page qui affiche le nombre de fois qu'un utilisateur l'a visitée.
+- Utiliser `$_SESSION['visites']` pour incrémenter et afficher le compteur.
