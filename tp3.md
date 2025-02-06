@@ -18,7 +18,7 @@ Comprendre comment collecter des données via des formulaires HTML et les traite
 #### **1) Exercices sur la récupération des données**
 
 **Exercice 1 : Premier formulaire**
-- Utilisez le formulaire HTML form.html qui contient un champ `nom` et un bouton de soumission.
+- Utilisez le formulaire HTML [form.html](https://github.com/berengergermain/rt-web-dynamique/blob/main/form.html) qui contient un champ `nom` et un bouton de soumission.
 - Envoyer les données via la méthode GET et récupérez les grâce à `$_GET` dans un fichier result.php et afficher le nom saisi.
 
 **Exercice 2 : Utilisation de `$_POST`**
