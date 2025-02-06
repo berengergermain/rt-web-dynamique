@@ -11,6 +11,7 @@ Manipuler une session utilisateur avec $_SESSION.
   - Pensez à utiliser son moteur de recherche ;)
   - Aide de la fonction [session_start()](https://www.php.net/manual/fr/function.session-start.php)
 - Site d'apprentissage multi language pour débutant : https://www.w3schools.com/php/default.asp
+  - [Tuto sur la manipulation de formulaire](https://www.w3schools.com/php/php_forms.asp)
   - [Tuto sur les sessions](https://www.w3schools.com/php/php_sessions.asp)
 - Évitez l'IA pour l'instant, cherchez à comprendre par vous même 😉
 
