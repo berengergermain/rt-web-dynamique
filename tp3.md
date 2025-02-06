@@ -2,8 +2,8 @@
 
 ### **1. Objectif général**
 
-Comprendre comment collecter des données via des formulaires HTML et les traiter avec PHP en utilisant les variables superglobales $_GET et $_POST.
-Manipuler une session utilisateur avec $_SESSION.
+- Comprendre comment collecter des données via des formulaires HTML et les traiter avec PHP en utilisant les variables superglobales $_GET et $_POST.
+- Manipuler une session utilisateur avec $_SESSION.
 
 **Les ressources à votre disposition**
 
@@ -93,7 +93,7 @@ Manipuler une session utilisateur avec $_SESSION.
 #### **5) Exercices manipulant les Sessions**
 
 > À partir de ce point, vous en savez assez pour créer une petite application web de plusieurs pages.
-> Essayez d'organiser votre code dans différents fichiers et faite navigez l'utilisateur de l'un à l'autre.
+> Essayez d'organiser votre code dans différents fichiers et faites naviguez l'utilisateur de l'une à l'autre.
 
 **Exercice 16 : Démarrer et afficher une session**
 - Créer une page `session_test.php`.
