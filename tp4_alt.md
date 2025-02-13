@@ -125,9 +125,7 @@ $query = "SELECT * FROM users WHERE ";
 $result = mysqli_query($conn, $query);
 
 if (mysqli_num_rows($result) > 0) {
-    // Stockage de l'utilisateur en session.
-  
-    header("Location: profile.php");
+    // Affichage de l'utilisateur.
 } else {
     echo "Identifiants incorrects.";
 }
@@ -141,38 +139,29 @@ mysqli_close($conn);
 #### **3) Introduction aux sessions et protection des pages**
 
 **Exercice 7 : Démarrer une session après connexion**\
-Dans `login_process.php`, si l'utilisateur est authentifié :
+Dans `login_process.php`, si l'utilisateur est authentifié, au lieu de l'afficher :
 
 - Démarrez une session avec `session_start()`.
 - Stockez `user_name` dans `$_SESSION`.
 - Redirigez vers `profile.php`.
 
-**Exercice 8 : Page de profil protégée**\
-Créez une page `profile.php` qui :
+Voici un exemple pour faire une redirection en PHP :
 
 ```php
 <?php
-session_start();
-if (!isset($_SESSION['user_name'])) {
-    header("Location: login.php");
-    exit();
-}
-
-echo "Bienvenue, " . $_SESSION['user_name'] . "!";
+header("Location: login.php");
+exit();
 ?>
-<a href='logout.php'>Déconnexion</a>
 ```
+
+**Exercice 8 : Page de profil protégée**
+Créez une page `profile.php` qui :
+
+- Vérifie si un utilisateur est stocké en session.
+- Affiche le profile de l'utilisateur si c'est le cas.
+- Redirige vers `login.php` dans le cas contraire
 
 **Exercice 9 : Déconnexion**
 
 - Ajoutez un bouton "Déconnexion" sur `profile.php`.
 - Créez `logout.php` pour détruire la session et rediriger vers `login.php`.
-
-```php
-<?php
-session_start();
-session_destroy();
-header("Location: login.php");
-exit();
-?>
-```
