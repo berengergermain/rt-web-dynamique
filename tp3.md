@@ -48,6 +48,8 @@
 - Créer un formulaire demandant le genre (`Homme`, `Femme`, `Autre`).
 - Afficher le choix sélectionné après soumission.
 
+> Si vous voulez aller plus vite, vous pouvez utiliser le snippet [advenced_form.html](https://github.com/berengergermain/rt-web-dynamique/blob/main/advanced_form.html) qui présente un formulaire HTML avec des champs complexes. Faites simplement un `var_dump($_POST);` dans le fichier `result.php` et constatez les différents comportements.
+
 **Exercice 7 : Cases à cocher**
 - Demander à l'utilisateur de choisir ses centres d'intérêt parmi plusieurs options.
 - Afficher les choix sélectionnés sous forme de liste.
