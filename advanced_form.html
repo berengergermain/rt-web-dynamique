@@ -1,0 +1,59 @@
+<form action="result.php" method="post">
+    <label>
+        Nom :
+        <input type="text" name="lastname">
+    </label>
+
+    <fieldset>
+        <legend>Les choix uniques</legend>
+        <label>
+            <input type="radio" name="civility" value="m">Monsieur
+        </label>
+        <label>
+            <input type="radio" name="civility" value="mme">Madame
+        </label>
+        <label>
+            <input type="radio" name="civility" value="Mlle">Mademoiselle
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Les choix multiples : valeur par valeur</legend>
+        <label>
+            <input type="checkbox" name="foot">Football
+        </label>
+        <label>
+            <input type="checkbox" name="basket">Basket
+        </label>
+        <label>
+            <input type="checkbox" name="golf">Golf
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Les choix multiples : dans un tableau </legend>
+        <label>
+            <input type="checkbox" name="vegetables[]" value="carrot">Carotte
+        </label>
+        <label>
+            <input type="checkbox" name="vegetables[]" value="bean">Haricot
+        </label>
+        <label>
+            <input type="checkbox" name="vegetables[]" value="tomato">Tomate
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Les liste déroulante </legend>
+        <label>
+            Couleur :
+            <select name="color">
+                <option value="red">Rouge</option>
+                <option value="blue">Bleu</option>
+                <option value="green">Vert</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <input type="submit" value="Valider">
+</form>
