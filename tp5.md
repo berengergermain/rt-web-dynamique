@@ -32,10 +32,18 @@ Consolider vos compétences en JavaScript en manipulant le DOM et en utilisant F
 - Ajouter un bouton avec pour identifiant `button-add`
 - Ajouter un écouteur d'événement `click` sur le bouton grâce à la fonction `document.getElementById(...).addEventListener(...)` et afficher un message dans la console du navigateur
 
+**Exercice 3 : CSS**
+
+- Utilisez les attributs `document.getElementById(...).style` pour mettre en gras une ligne
+- Manipuler et expérimenter la mise en forme (couleurs du texte, de fond...)
+
+**Exercice 4 : Validation de formulaire**
+
+- Reprenez le fichier `login.php` du TP4 et complétez le pour valider, en javascript que tous les champs sont remplis (ne sont pas vides)
 
 #### **2) Introduction à Fetch**
 
-**Exercice 3 : Récupérer des données depuis une API**
+**Exercice 5 : Récupérer des données depuis une API**
 
 - Utiliser l’API publique suivante : `https://jsonplaceholder.typicode.com/users`.
 - Créer une page HTML avec un bouton "Charger les utilisateurs".
@@ -56,7 +64,7 @@ document.getElementById("load-users").addEventListener("click", function() {
 </script>
 ```
 
-**Exercice 4 : Ajouter les données récupérées depuis une API au DOM**
+**Exercice 6 : Ajouter les données récupérées depuis une API au DOM**
 
 - Reprendre le code de l'exercice précédent et le compléter comme suit :
 -- ajouter dans le code html une balise `<ul id="list"></ul>`
